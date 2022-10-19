@@ -1,0 +1,124 @@
+/*global*/
+body {
+    background-image: linear-gradient(to right,rgb(213, 221,243),rgba(6, 99, 198, 0.475));
+    color: royalblue ;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    background-image: linear-gradient(to left,rgb(213, 221,243),rgba(6, 99, 198, 0.475));
+    padding: 10px;
+    color: rgb(52, 88, 199);
+    text-align: justify;
+    line-height: 2;
+    font-weight: 400;
+    margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+
+}
+
+h1{
+    font-size: 24px;
+}
+
+h1,h2{
+    text-align: center; text-shadow: 2px 2px 5px white;
+}
+
+a {
+    text-decoration: none;
+    color: ""
+}
+
+/*utilities*/
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    display: block;
+    background-image: linear-gradient(to left,rgb(213, 221,243),rgba(6, 99, 198, 0.475));
+    color: royalblue;
+    box-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px  5px white;
+    font-size: px;
+    font-weight: 900;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding:10px;
+    border-radius: 10px;
+    max-width: 150px;
+    
+    }
+
+img{
+    max-width: 100%;
+}
+.btn-small {
+    width: 150px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+header img{  
+display:block;
+width: 150px;
+margin-left:auto;
+margin-right: auto;
+border-radius: 50px;
+box-shadow: 2px 2px 5px white;
+}
+
+header{
+    flex-basis: 35%;
+}
+
+/*main*/
+main{
+    flex-basis: 65%;
+}
+
+.main-greeting{
+    color: royalblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-name{
+    text-transform: uppercase;
+    color: royalblue;
+    font-size: 22px;
+}
+
+.graduation-box{
+    background-image: linear-gradient(to left,rgb(213, 221,243),rgba(6, 99, 198, 0.475));
+    padding: 10px;
+    margin:30px;
+    margin: 30px;
+    }
+
+.graduation-header{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width:fit-content;
+   font-size: 24px;
+}
+
+.degree{
+    font-size: 20px
+    font-weight 700px;
+}
+
+.contacts{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
